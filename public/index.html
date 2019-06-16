@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <title>Scraping With Mongoose</title>
     <style>
-      body { background-color: #F2F6D0 }
+      body { 
+      background: #DAE2F8;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+       }
       #wrapper {
         width: 960px;
         margin-left: auto;
@@ -38,8 +43,7 @@
   </head>
   <body>
     <div id="wrapper">
-      <h1>Note Scraper</h1>
-      <h2><i>If you can do this...the homework should be no problem.</i></h2>
+      <h1>Basketball News Scraper</h1>
       <div id="articles"></div>
       <div id="notes"></div>
     </div>
